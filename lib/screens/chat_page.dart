@@ -33,7 +33,7 @@ class _ChatPageState extends State<ChatPage> {
       await FirebaseFirestore.instance.collection('rom').add(data);
       emojiShowing.value = false;
     } catch (e) {
-      print(e);
+      debugPrint('$e');
     }
     text.clear();
   }
@@ -53,7 +53,6 @@ class _ChatPageState extends State<ChatPage> {
       backgroundColor: theme.surfaceContainer,
       appBar: AppBar(
         title: const Text('Chat Dom Eliseu'),
-        centerTitle: true,
         actions: [
           IconButton(
             onPressed: () {
