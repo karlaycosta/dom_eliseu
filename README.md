@@ -1,5 +1,5 @@
 # Projeto Chat Dom Eliseu
-![image Alt text](../assets/images/app.jpg)
+![image Alt text](../main/assets/images/app.jpg)
 
 
 Projeto desenvolvido na disciplina de Programação para Dispositivos Móveis.
